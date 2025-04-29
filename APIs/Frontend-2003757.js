@@ -1,7 +1,7 @@
 // === Configuración ===
-const OPENWEATHER_API_KEY = "590193a6f21cd9f68ea8dcc97c55cb43";
-const OPENWEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather";
-const JSONPLACEHOLDER_API_URL = "https://jsonplaceholder.typicode.com/posts";
+const OPENWEATHER_API_KEY = config.JSONPLACEHOLDER_API_URL
+const OPENWEATHER_API_URL = config.OPENWEATHER_API_URL
+const JSONPLACEHOLDER_API_URL = config.JSONPLACEHOLDER_API_URL;
 
 // DOM weather
 const cityInputEl = document.getElementById("cityInput");
