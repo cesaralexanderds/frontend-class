@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios API - Frontend 2003757</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Ejercicios APIs</h1>
+    <section id="openweather-section">
+        <h2>Ejercicio OpenWeather</h2>
+        
+
+        <div>
+            <h3>Buscar clima por ciudad:</h3>
+            <input type="text" id="cityInput" placeholder="Ingresa una ciudad">
+            <button id="searchButton">Buscar</button>
+        </div>
+
+        <div id="weatherResult" style="display: none;"></div>
+        <div id="errorResult" style="display: none;"></div>
+    </section>
+
+
+    <section id="jsonplaceholder-section">
+        <h2>Ejercicio JSONPlaceholder</h2>
+
+        <h3>Crear Nuevo Post</h3>
+        <form id="postForm">
+            <label for="postTitle">Título:</label>
+            <input type="text" id="postTitle" required><br>
+            
+            <label for="postBody">Contenido:</label>
+            <textarea id="postBody" rows="4" required></textarea><br>
+            
+            <button type="submit">Crear Post</button>
+        </form>
+        <p id="postStatus"></p>
+
+        <hr>
+
+        <h3>Lista de Posts</h3>
+        <table id="postsTable">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody id="postsTableBody">
+            </tbody>
+        </table>
+    </section>
+
+    <script src="Frontend-2003757.js"></script>
+</body>
+</html> 
